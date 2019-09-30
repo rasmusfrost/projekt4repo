@@ -61,3 +61,164 @@ opacity: 0.6;
 	padding: 0px 20px;
 
 }
+
+.faq{
+  margin-left: 13%;
+  /* margin-top: 33%; */
+  margin-top: -10%;
+}
+
+.faq h2 {
+  font-weight: normal;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  color: #444;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight: lighter;
+  border-bottom: 2px solid black;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.activeList, .collapsible:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0px 0px;
+  overflow: hidden;
+  background-color: white;
+  font-weight: lighter;
+  max-height: 0;
+  width: 70%;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Add + and - icons */
+.collapsible:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  color: white;
+  background-color: #429697;
+  padding: 1px 10px;
+  padding-top: 0px;
+  font-size: 29px;
+  font-weight: lighter;
+  float: left;
+  margin-right: 30px;
+  margin-left: -6px;
+  margin-top: -7px;
+}
+
+.activeList:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+  color: white;
+  background-color: #429697;
+  padding: 1px 12.4px;
+  padding-top: 0px;
+  font-size: 29px;
+  font-weight: lighter;
+  float: left;
+  margin-right: 30.4px;
+  margin-left: -6px;
+}
+
+
+
+/* KORT
+KORT
+KORT */
+
+
+.kontaktoplysninger{
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+.kort {
+  background-color: #f1f1f1;
+  width: 70%;
+  height: 100%;
+  float: right;
+  font-weight: lighter;
+  margin-bottom: 6%;
+  margin-left: 20%;
+}
+
+
+aside h2 {
+  font-weight: normal;
+  padding-left: 6%;
+  margin-bottom: 0%;
+  margin-top: 8%;
+  padding-top: 3%;
+}
+.info {
+  list-style-type: none;
+  margin-left: 13%;
+  margin-top: 3%;
+  margin-bottom: 8%;
+}
+
+.some {
+  list-style-type: none;
+  padding-left: 6%;
+  float: left;
+  padding-right: 65%;
+  margin-top: 3%;
+}
+
+.some .fab {
+margin: 10px 30px 20px 0;
+font-size: 28px;
+color: #000000;
+}
+
+.some .fa-instagram{
+margin-right: 22px;
+}
+
+.some .fa-facebook-f{
+  margin-right: 28px;
+  font-size: 30px;
+  margin-bottom: 45%;
+}
+
+
+.fab:hover {
+opacity: 0.6;
+}
+
+.some a:hover {
+opacity: 0.6;
+}
+
+aside a {
+  text-decoration: none;
+  color: #000;
+}
+
+aside p {
+  padding-top: 15px;
+  padding-left: 6%;
+}
+
+
+.findos{
+  margin-top: 20%;
+  margin-bottom: -2%;
+}
+
+.map {
+  height: 100%;
+  margin: 6%;
+}
