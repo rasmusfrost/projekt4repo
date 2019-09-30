@@ -8,7 +8,7 @@ body{
 .wrapper {
 display: grid;
 grid-template-columns: 2fr 2fr;
-grid-template-rows: minmax(500px auto);
+grid-template-rows: minmax(500px, auto);
 grid-gap: 1em;
 }
 
@@ -124,9 +124,9 @@ img{
 
 /* Slideshow animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webit-animation-duration: 2s;
-  -webkite-animation-timing-function: ease-out;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
   animation-name: fade;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -325,10 +325,10 @@ main p{
 
 h1{
   font-size: 32px;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
-button[type=send] {
+button[type=submit] {
   background-color: #429698;
   color: white;
   padding: 12px 30px;
@@ -337,7 +337,7 @@ button[type=send] {
   cursor: pointer;
 }
 
-button[type=send]:hover {
+button[type=submit]:hover {
   background-color: #8EBBBC;
 }
 

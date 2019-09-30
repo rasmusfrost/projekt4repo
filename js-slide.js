@@ -1,6 +1,6 @@
 let slideIndex = 0;
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
+// const prevBtn = document.getElementById('prevBtn');
+// const nextBtn = document.getElementById('nextBtn');
 
 // (Hvordan undgår jeg den løber al den anden kode igennem først)
 // nextBtn.addEventListener('click', (slideIndex) => {
