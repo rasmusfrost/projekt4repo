@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontaktside</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel='shortcut icon' type='image/x-icon' href='img/latinerkvartert.ico' />
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src="js-slide.js" defer></script>
+  <script src="https://kit.fontawesome.com/c06a982fa4.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <!-- CSS GRID WRAPPER -->
+  <div class="wrapper">
+
+
+<!-- NAVIGATION -->
+    <nav class="navigation">
+      <ul class>
+
+        <img src="img/latinerkvarteret-logo.png" alt="logo" class="logo">
+
+      	<div class="socials">
+      	   <a href="https://www.instagram.com/iatinerkvarteret/" target="_blank">
+             <i class="fab fa-instagram">
+        </i>
+        </a>
+        <a href="https://www.facebook.com/latinerkvarteretodenseprojekt/" target="_blank">
+      	<i class="fab fa-facebook-f">
+        </i>
+</a>
+      	</div>
+
+        <li><a href="kontakt">KONTAKT</a></li>
+        <li><a href="medlemmer">MEDLEMMER</a></li>
+        <li><a href="events">EVENTS</a></li>
+        <li><a href="omos">OM OS</a></li>
+        <li><a href="forside">FORSIDE</a></li>
+
+
+      </ul>
+    </nav>
+
+
+    <!-- SLIDESHOW -->
+          <div class="carousel-container">
+
+
+    <!-- SLIDESHOW BILLEDER -->
+          <div class="mySlides fade">
+
+            <img src="img/cropped/spooks2.jpg" alt="kaffebar">
+            <!-- <div class="text">first img</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/cropped/design.jpg" alt="bar">
+            <!-- <div class="text">second img</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/cropped/gastronomi.jpg" alt="snow">
+              <!-- <div class="text">third img</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/cropped/kultur.jpg" alt="snow">
+              <!-- <div class="text">fourth img</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/cropped/mode.jpg" alt="snow">
+              <!-- <div class="text">fifth img</div> -->
+    </div>
+
+
+    <!-- SLIDESHOW DOTS -->
+    <div class="dots-container">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    </div>
+
+    <!-- KONTAKTFORMULAR -->
+        <main class="kontaktside">
+
+            <h1>KONTAKT OS</h1>
+            <p>Har du åbnet en virksomhed og søger beliggenhed i et hyggeligt kvarter med et stærkt samarbejde mellem de andre forretninger, cafeer, restauranter og teatre? Vil du gerne høre mere om hvordan det er at drive forretning her? Det kan også være at du har forslag til siden eller måske har du et godt spørgsmål du rigtig gerne vil have svar på, så skriv til os!</p>
+            <p>Vi ser frem til at høre fra dig.</p>
+              <form class="kontakt-form" action="kontaktform.php" method="post">
+                <input type="text" name="navn" placeholder="Navn">
+                <input type="text" name="email" placeholder="E-mail">
+                <input type="text" name="emne" placeholder="Emne">
+                <textarea name="Besked" placeholder="Besked"></textarea>
+                <button type="send" name="Send">SEND MAIL</button>
+              </form>
+    </main>
+
+<!-- KORT OG INFO -->
+    <aside class="kort">
+      <h2 class="kontaktoplysninger">KONTAKTOPLYSNINGER</h2>
+      <ul class="info">
+        <li>Jørgen Findsen <br> FINDSEN <br> Vestergade 104 <br> TLF: 20419589 </li>
+        <br>
+        <li>Dina Vejling <br> Dansk Kunsthåndværk <br> Brandts Passage 38 <br> TLF: 66111405</li>
+      </ul>
+      <h2>SOCIALE MEDIER</h2>
+      <ul class="some">
+        <a href="https://www.instagram.com/iatinerkvarteret/" target="_blank">
+        <i class="fab fa-instagram"></i>Instagram</a>
+          <a href="https://www.facebook.com/latinerkvarteretodenseprojekt/" target="_blank">
+      	<i class="fab fa-facebook-f">
+        </i>Facebook</a>
+      </ul>
+      <h2 class="findos">FIND OS HER</h2>
+
+      <div class="map">
+        <div class="gmap_canvas">
+          <iframe width="431" height="431" id="gmap_canvas" src="https://maps.google.com/maps?q=pantheonsgade&t=&z=17&ie=UTF8&iwloc=&output=embed">
+          </iframe>
+        </div>
+      <style>.map{position:relative;text-align:right;height:431px;width:431px;}.gmap_canvas {overflow:hidden;background:none!important;height:431px;width:431px;}</style>
+      </div>
+
+      <h2>PARKERING</h2>
+      <p>Du kan parkere følgende steder i Latinerkvarteret:
+      Føtex på Vesterbro, gården bag H.J. Hansen (indkørsel fra Vindegade), P-hus Filosoffen eller P-huset i Pantheonsgade.
+      Foruden de markerede P-pladser er der halv times kantstensparkering i følgende gader:
+      Vesterbro, Falen, Ny Vestergade og Pantheonsgade.
+      1 times parkering på Kirkegårds Alléen.
+      </p>
+   </aside>
+
+   <!-- FAQ -->
+         <section class="faq">
+         <h2> TYPISK STILLEDE SPØRGSMÅL </h2>
+         <button type="button" class="collapsible">Hvad er Latinerkvarteret?</button>
+         <div class="content">
+           <p>Her står der svaret på alle livets store og små spørgsmål, så det var godt du klikkede her så du nu kan læse det.
+             Svaret på det hele er jo selvfølgelig 42. Nothing more. Nothing less.</p>
+         </div>
+         <button type="button" class="collapsible">Ligger (indsæt butik her) i kvarteret?</button>
+         <div class="content">
+           <p>Her står der svaret på alle livets store og små spørgsmål, så det var godt du klikkede her så du nu kan læse det.
+             Svaret på det hele er jo selvfølgelig 42. Nothing more. Nothing less.</p>
+         </div>
+         <button type="button" class="collapsible">Hvem står for Latinerkvarteret?</button>
+         <div class="content">
+           <p>Her står der svaret på alle livets store og små spørgsmål, så det var godt du klikkede her så du nu kan læse det.
+             Svaret på det hele er jo selvfølgelig 42. Nothing more. Nothing less.</p>
+         </div>
+         <button type="button" class="collapsible">Hvad får jeg som medlem?</button>
+         <div class="content">
+           <p>Her står der svaret på alle livets store og små spørgsmål, så det var godt du klikkede her så du nu kan læse det.
+             Svaret på det hele er jo selvfølgelig 42. Nothing more. Nothing less.</p>
+         </div>
+         <button type="button" class="collapsible">Hvilke events er der lige NU i Latinerkvarteret?</button>
+         <div class="content">
+           <p>Her står der svaret på alle livets store og små spørgsmål, så det var godt du klikkede her så du nu kan læse det.
+             Svaret på det hele er jo selvfølgelig 42. Nothing more. Nothing less.</p>
+         </div>
+         </section>
+
+    <!-- FOOTER -->
+          <footer class="footsie">
+            Copyright © 2019 Latinerkvarteret.com. Alle rettigheder forbeholdes.
+            </footer>
+
+
+
+</div>
+</body>
+</html>
