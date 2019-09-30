@@ -298,6 +298,51 @@ opacity: 0.6;
   margin-left: -6px;
 }
 
+/* KONTAKTFORM - MADS */
+  input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+main {
+  margin-left: 13%;
+  width: 70%;
+}
+
+main p{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 1000;
+}
+
+button[type=send] {
+  background-color: #429698;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+button[type=send]:hover {
+  background-color: #8EBBBC;
+}
+
+textarea {
+  height: 200px;
+
+}
 
 
 
