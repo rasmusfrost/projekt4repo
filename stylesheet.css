@@ -1,3 +1,168 @@
+body{
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+/* CSS GRID */
+
+.wrapper {
+display: grid;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: minmax(500px auto);
+grid-gap: 1em;
+}
+
+.navigation, .kontaktside, .faq{
+  /* background: #eee;
+  border: 1px solid black; */
+}
+
+.logo, .carousel-container, .kort, .footsie{
+  /* background: #ddd;
+  border: 1px solid black; */
+}
+
+.navigation{
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+.carousel-container {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  max-width: 100%;
+  max-height: 700px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.kontaktside{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.kort{
+  grid-column: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.faq{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.footsie{
+  grid-row-start: 5;
+  grid-column: 1/-1;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE
+SLIDESHOW DO NOT PILLE */
+
+
+
+
+
+
+
+/* Container med billeder */
+.mySlides{
+  text-align: center;
+}
+
+/* Tæller der viser hvilket billede vi er på */
+.numbertext{
+  position: absolute;
+  padding: 8px 12px;
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+/* Tekst til selve billedet */
+.text{
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+}
+
+img{
+  max-width: 100%;
+
+}
+
+/* Container til prikkerne */
+.dots-container{
+  text-align: center;
+  /* margin-top: -5px; */
+}
+
+.dot{
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+/* Den aktive knap (Farven på den) */
+.active{
+  background-color: #000000;
+}
+
+/* Slideshow animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webit-animation-duration: 2s;
+  -webkite-animation-timing-function: ease-out;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fade{
+  from {opacity: 0.7}
+  to {opacity: 1.0}
+}
+
+/*pile */
+#prevBtn{
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  left: 2%;
+  font-size: 30px;
+  color: #ffffff;
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  right: 2%;
+  justify-content: flex-start;
+  font-size: 30px;
+  color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -132,6 +297,10 @@ opacity: 0.6;
   margin-right: 30.4px;
   margin-left: -6px;
 }
+
+
+
+
 
 
 
