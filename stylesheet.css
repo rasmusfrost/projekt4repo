@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+nav ul {
+list-style-type: none;
+outline: none;
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+    background-color: #000;
+	background: rgba(000, 000, 000, 0.5);
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  opacity: 0.3;
+}
+
+/*Sociale Medie Ikoner*/
+
+.socials {
+padding: 30px 20px;
+float: right;
+}
+
+.fab {
+margin: 0px 30px 0 0;
+font-size: 18px;
+color: white;
+}
+
+.fab:hover {
+opacity: 0.6;
+}
+
+
+/*logo*/
+
+.logo {
+	float: left;
+	position: absolute;
+	padding: 0px 20px;
+
+}
